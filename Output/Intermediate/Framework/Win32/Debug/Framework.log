@@ -1,0 +1,17 @@
+﻿  FrameworkPCH.cpp
+  cJSON.c
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  lodepng.cpp
+  Generating Code...
+  FrameworkMain.cpp
+  GameCore.cpp
+  GLExtensions.cpp
+  GLHelpers.cpp
+  WGLExtensions.cpp
+  MyMatrix.cpp
+  ShaderProgram.cpp
+  Helpers.cpp
+  Generating Code...
+  Framework.vcxproj -> C:\Users\kylej\Desktop\New folder (3)\FuriLite\Output\Framework\Win32\Debug\Framework.lib

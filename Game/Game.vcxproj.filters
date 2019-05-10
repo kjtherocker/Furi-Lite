@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{d4dc2ed3-3af2-49dc-ab58-85e167601a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{88fe26c9-2a76-4701-8e99-31e64dc3f2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common">
+      <UniqueIdentifier>{4c03fd4a-4ce5-4242-80f6-0df6d03bdc3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common\Main">
+      <UniqueIdentifier>{55dc1b96-bc8c-45fc-8dce-5c0ce37d9694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Common\Memory">
+      <UniqueIdentifier>{4c93d17d-6f0c-4f5b-b8fa-c61b5d60fe4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{d07083e1-f7ab-4514-9399-0045e8656362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameObjects">
+      <UniqueIdentifier>{96f9ac06-1467-49e5-a66a-ff56f110e41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Base">
+      <UniqueIdentifier>{f493b7de-66a1-43ee-9d79-eba98a33367f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Mesh">
+      <UniqueIdentifier>{a1fadd2c-1c68-43ed-8701-95bd10046644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Box2D">
+      <UniqueIdentifier>{6c9bc13c-73a4-4c3d-8741-1b0013cfaf57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Events">
+      <UniqueIdentifier>{9691e758-4de3-4580-9a33-ec39e7206042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameObjects\BossObjects">
+      <UniqueIdentifier>{fd949d2f-9c52-434e-a2ea-1f9caa9599af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Audio">
+      <UniqueIdentifier>{e6cdff62-8b7f-4398-b11c-61676bade3f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\GameObjects\ProjectileObjects">
+      <UniqueIdentifier>{d058f993-0a39-487d-9430-778334826f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\MenuObjects">
+      <UniqueIdentifier>{df5f60ec-6e53-4f96-b45a-92946af5438c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GamePCH.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\CameraObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\GameObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\PlayerController.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Base\ResourceManager.cpp">
+      <Filter>Source\Game\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Base\Scene.cpp">
+      <Filter>Source\Game\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Mesh\Mesh.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Mesh\MeshShapes.cpp">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\PlayerObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Base\Game.cpp">
+      <Filter>Source\Game\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Main\ImguiManager.cpp">
+      <Filter>Source\Common\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Main\WinMain.cpp">
+      <Filter>Source\Common\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Memory\Memory.cpp">
+      <Filter>Source\Common\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Box2D\Box2DContactListener.cpp">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Box2D\Box2DWorld.cpp">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\HealthBarObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\BossObjects\BlueBossObject.cpp">
+      <Filter>Source\Game\GameObjects\BossObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\BossObjects\BossObject.cpp">
+      <Filter>Source\Game\GameObjects\BossObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\BossObjects\RedBossObject.cpp">
+      <Filter>Source\Game\GameObjects\BossObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Audio\SoundPlayerXAudio.cpp">
+      <Filter>Source\Game\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Audio\WaveLoader.cpp">
+      <Filter>Source\Game\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\ParticleObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Base\FBODefinition.cpp">
+      <Filter>Source\Game\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Base\TweenFuncs.cpp">
+      <Filter>Source\Game\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Base\Tween.cpp">
+      <Filter>Source\Game\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\ProjectileObjects\FirePillarObject.cpp">
+      <Filter>Source\Game\GameObjects\ProjectileObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\ProjectileObjects\MagicCircleObject.cpp">
+      <Filter>Source\Game\GameObjects\ProjectileObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\ProjectileObjects\ProjectileObject.cpp">
+      <Filter>Source\Game\GameObjects\ProjectileObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\MainMenuScene.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\OptionsMenu.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\SampleScene.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\SceneManager.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\TitleMenu.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\OptionsMenuConfirm.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\DiffcultyConfirm.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\Audio\AudioCue.cpp">
+      <Filter>Source\Game\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\BlueBossScene.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\SkyBoxObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\ScoreObject.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\HUDScene.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\ScoreMenu.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\FBOmenu.cpp">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\GameObjects\ProjectileObjects\LazerObject.cpp">
+      <Filter>Source\Game\GameObjects\ProjectileObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game\MenuObjects\BothBoss.cpp">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\GamePCH.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\CameraObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\GameObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\PlayerController.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Base\ResourceManager.h">
+      <Filter>Source\Game\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Base\Scene.h">
+      <Filter>Source\Game\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Mesh\Mesh.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Mesh\VertexFormat.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\PlayerObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Mesh\Material.h">
+      <Filter>Source\Game\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Base\Game.h">
+      <Filter>Source\Game\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Main\ImguiManager.h">
+      <Filter>Source\Common\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Main\WinMain.h">
+      <Filter>Source\Common\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Memory\CPPList.h">
+      <Filter>Source\Common\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Memory\Memory.h">
+      <Filter>Source\Common\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\SimplePool.h">
+      <Filter>Source\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Box2D\Box2DContactListener.h">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Box2D\Box2DWorld.h">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Events\RemoveFromSceneEvent.h">
+      <Filter>Source\Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Events\GameEvents.h">
+      <Filter>Source\Game\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Box2D\RayCastResultCallback.h">
+      <Filter>Source\Game\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Constaints.h">
+      <Filter>Source\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\HealthBarObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\BossObjects\BossObject.h">
+      <Filter>Source\Game\GameObjects\BossObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\BossObjects\RedBossObject.h">
+      <Filter>Source\Game\GameObjects\BossObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\BossObjects\BlueBossObject.h">
+      <Filter>Source\Game\GameObjects\BossObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Audio\SoundPlayerXAudio.h">
+      <Filter>Source\Game\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Audio\WaveLoader.h">
+      <Filter>Source\Game\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\ParticleObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Base\FBODefinition.h">
+      <Filter>Source\Game\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Base\TweenFuncs.h">
+      <Filter>Source\Game\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Base\Tween.h">
+      <Filter>Source\Game\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\ProjectileObjects\FirePillarObject.h">
+      <Filter>Source\Game\GameObjects\ProjectileObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\ProjectileObjects\MagicCircleObject.h">
+      <Filter>Source\Game\GameObjects\ProjectileObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\ProjectileObjects\ProjectileObject.h">
+      <Filter>Source\Game\GameObjects\ProjectileObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\MainMenuScene.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\OptionsMenu.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\SampleScene.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\SceneManager.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\TitleMenu.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\OptionsMenuConfirm.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\DiffcultyConfirm.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\Audio\AudioCue.h">
+      <Filter>Source\Game\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\BlueBossScene.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\SkyBoxObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\ScoreObject.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\HUDScene.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\ScoreMenu.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\FBOmenu.h">
+      <Filter>Source\Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\GameObjects\ProjectileObjects\LazerObject.h">
+      <Filter>Source\Game\GameObjects\ProjectileObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Game\MenuObjects\BothBoss.h">
+      <Filter>Source\Game\MenuObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Data\Shaders\texture.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\texture.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\Healthbar.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\Healthbar.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\Lighting.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\Lighting.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\Particle.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\Particle.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\SkyBox.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\SkyBox.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\score.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\score.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\TexAndLight.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\TexAndLight.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\PostProcessing.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\PostProcessing.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\Ripple.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\Ripple.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\CubeMapReflection.frag">
+      <Filter>Data\Shaders</Filter>
+    </None>
+    <None Include="..\Data\Shaders\CubeMapReflection.vert">
+      <Filter>Data\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\readme.txt" />
+  </ItemGroup>
+</Project>

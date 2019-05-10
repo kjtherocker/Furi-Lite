@@ -1,0 +1,9 @@
+{
+	"GameObjects":	[{
+			"HighScore":	45,
+			"UserInterface":	1,
+			"RedBoss":	1,
+			"BlueBoss":	0,
+			"Sound":	0
+		}]
+}
