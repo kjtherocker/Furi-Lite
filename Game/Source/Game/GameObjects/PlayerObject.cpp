@@ -238,7 +238,7 @@ void PlayerObject::Update(float deltatime)
 			if (m_TeleportTimer <= 0)
 			{
 				m_TeleportTimer = TELEPORTTIMER;
-				float distance = sqrt(pow((m_Position.x - m_CursorPosition.x), 2) + pow((m_Position.y - m_CursorPosition.y), 2));
+				float distance = ((float)sqrt(pow((m_Position.x - m_CursorPosition.x), 2) + pow((m_Position.y - m_CursorPosition.y), 2)));
 
 				if (distance <= m_Teleportrange)
 				{
@@ -251,11 +251,11 @@ void PlayerObject::Update(float deltatime)
 					float x = abs(m_Position.x - m_CursorPosition.x);
 					float y = abs(m_Position.y - m_CursorPosition.y);
 
-					float angle = asin(y / distance);
-					float angle1 = acos(x / distance);
+					float angle = ((float)asin(y / distance));
+					float angle1 = ((float)acos(x / distance));
 
-					float YPos = sin(angle) * 6;
-					float XPos = cos(angle1) * 6;
+					float YPos = ((float)sin(angle) * 6);
+					float XPos = ((float)cos(angle1) * 6);
 
 					// - -
 					if (m_Position.x > m_CursorPosition.x && m_Position.y > m_CursorPosition.y)

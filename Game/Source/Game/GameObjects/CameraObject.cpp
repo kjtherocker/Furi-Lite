@@ -28,10 +28,10 @@ void CameraObject::Update(float deltatime)
     }
     if (m_pPlayerObject != nullptr)
     {
-        float cx = cos(m_Rotation.x / 180 * PI);
-        float sx = sin(m_Rotation.x / 180 * PI);
-        float cy = cos(m_Rotation.y / 180 * PI);
-        float sy = sin(m_Rotation.y / 180 * PI);
+        float cx = ((float)cos(m_Rotation.x / 180 * PI));
+        float sx = ((float)sin(m_Rotation.x / 180 * PI));
+        float cy = ((float)cos(m_Rotation.y / 180 * PI));
+        float sy = ((float)sin(m_Rotation.y / 180 * PI));
 
         float distance = 20;
         vec3 eye = vec3(-distance*cx*sy, distance*sx, -distance*cx*cy);
@@ -75,16 +75,6 @@ vec4 CameraObject::GetTrueMouseCoord(vec2 mousecoord)
     mat4 inverseVP = m_MatProj * m_MatView;
     inverseVP.Inverse();
 
-    //mat4 Projection = m_MatProj;
-
-    //mat4 ProjectionInverse = Projection.GetInverse();
-
-    //mat4 View = m_MatView;
-
-    //mat4 viewInverse = View.GetInverse();
-
-    //vec4 worldpos = viewInverse * ProjectionInverse * screenpos;
-
     vec4 worldpos = inverseVP * screenpos;
 
     vec3 worldspacepoint = vec3(worldpos.x, worldpos.y, worldpos.z) / worldpos.w;
@@ -93,16 +83,10 @@ vec4 CameraObject::GetTrueMouseCoord(vec2 mousecoord)
 
     float N = float((0.0f - m_Position.z) / Direction.z);
 
-    //vec4 FinalPos = vec4((m_Position.x + Direction.x * N), (m_Position.y + Direction.y * N), (m_Position.z + Direction.z * N), 0);
     vec4 FinalPos = vec4(m_Position + Direction * N, 0);
 
     worldpos.x *= 10 / 0.4f;
     worldpos.y *= 10 / 0.4f;
-
-    //ImGui::Text("%f", worldpos.x);
-    //ImGui::Text("%f", worldpos.y);
-    //ImGui::Text("%f", worldpos.z);
-    //ImGui::Text("%f", worldpos.w);
 
     return vec4(FinalPos);
 }

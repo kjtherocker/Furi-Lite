@@ -212,27 +212,29 @@ void RedBossObject::Update(float deltatime)
 	// Sets the attacks
     if (m_AttackDone == true)
     {
-        if (m_Attack == 0)
+        switch (m_Attack)
         {
-            m_BossState = &RedBossObject::Start;
+            case 0:
+                m_BossState = &RedBossObject::Start;
+            break;
+
+            case 1:
+                m_BossState = &RedBossObject::ProjectileAttack;
+            break;
+
+            case 2:
+                m_BossState = &RedBossObject::ProjectileAttack;
+            break;
+
+            case 3:
+                m_BossState = &RedBossObject::LazerAttack;
+            break;
+
+            case 4:
+                m_BossState = &RedBossObject::GroundAttack;
+              break;
         }
-        if (m_Attack == 1)
-        {
-            m_BossState = &RedBossObject::ProjectileAttack;
-        }
-        if (m_Attack == 2)
-        {
-            m_BossState = &RedBossObject::ProjectileAttack;
-        }
-        if (m_Attack == 3)
-        {
-            m_Movement = 3;
-            m_BossState = &RedBossObject::LazerAttack;
-        }
-        if (m_Attack == 4)
-        {
-            m_BossState = &RedBossObject::GroundAttack;
-        }
+      
         m_AttackDone = false;
     }
 

@@ -1,0 +1,2 @@
+F:\PersonalProjects\C++ Portfolio\FuriLite\Output\Framework\Win32\Debug\Framework.pdb
+F:\PersonalProjects\C++ Portfolio\FuriLite\Output\Intermediate\Framework\Win32\Debug\Framework.pdb

@@ -36,7 +36,5 @@ vec3 BossObject::CalculateOffset(float radians, float radius)
 void BossObject::Start(float delta)
 {
      m_Position = vec3(vec3(5, 0, 0));
-	//m_pScene->m_pGameObjects["WallTop1"]->GetPhysicsBody()->ApplyForce(b2Vec2(0, 0), b2Vec2(0.0f, 0.0f), true);
-     
 }
 

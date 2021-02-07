@@ -1,0 +1,2 @@
+F:\PersonalProjects\C++ Portfolio\FuriLite\Output\Box2D\Win32\Debug\Box2D.pdb
+F:\PersonalProjects\C++ Portfolio\FuriLite\Output\Intermediate\Box2D\Win32\Debug\Box2D.pdb

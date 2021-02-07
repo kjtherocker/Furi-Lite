@@ -1,9 +1,9 @@
 {
 	"GameObjects":	[{
-			"HighScore":	45,
+			"HighScore":	85,
 			"UserInterface":	1,
-			"RedBoss":	1,
-			"BlueBoss":	0,
+			"RedBoss":	0,
+			"BlueBoss":	1,
 			"Sound":	0
 		}]
 }
